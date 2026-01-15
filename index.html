@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakshi Kokate | Data & Python Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">Sakshi<span>.</span></a>
+            <div class="nav-right">
+                <ul class="nav-links">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="spotlight-glow"></div>
+        <div class="container hero-content">
+            <div class="hero-text hidden-element delay-100">
+                <p style="font-size: 1.2rem; color: var(--text-secondary); margin-bottom: 0.5rem;">Hi, I am</p>
+                <h1 class="hero-big-text" style="font-size: 5rem; margin-bottom: 1.5rem;">
+                    <span class="gradient-text">Sakshi Kokate</span>
+                </h1>
+                <h2 class="hero-big-text" style="font-size: 3rem; opacity: 0.9;">
+                    Crafting <span class="gradient-text">Data</span> Insights.
+                </h2>
+                <p
+                    style="font-size: 1.1rem; color: var(--text-secondary); max-width: 500px; margin-bottom: 2rem; margin-top: 1.5rem;">
+                    Computer Science student specializing in Python, Data Analytics, and building exceptional digital
+                    solutions.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects <i class="fas fa-arrow-right"></i></a>
+                    <a href="Sakshi Resume.pdf" download="Sakshi_Kokate_Resume.pdf" target="_blank"
+                        class="btn btn-outline" style="margin-left: 10px;">Download Resume <i
+                            class="fas fa-file-pdf"></i></a>
+                </div>
+            </div>
+            <div class="hero-visual hidden-element delay-200">
+                <!-- Using the horizontal image as requested -->
+                <img src="sakshi horizontal image.jpg" alt="Sakshi Kokate" class="hero-bg-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about hidden-element">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid glass">
+                <div class="profile-card hidden-element delay-100">
+                    <!-- Using passport size image here -->
+                    <img src="sakshi photo.jpg" alt="Profile" class="profile-img">
+                    <div class="name-socials">
+                        <a href="https://www.linkedin.com/in/sakshi-kokate/" target="_blank" class="social-pill">
+                            <i class="fab fa-linkedin"></i>
+                            <span>Connect with me on LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/sakshi-kokate04" target="_blank" class="social-pill">
+                            <i class="fab fa-github"></i>
+                            <span>Explore my projects on GitHub</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="about-content hidden-element delay-200">
+                    <h3>Hello, I'm Sakshi!</h3>
+                    <p style="margin-top: 1rem; color: var(--text-secondary);">
+                        I am a detail-oriented <strong>Computer Science Engineering student</strong> at Yashoda
+                        Technical Campus, Satara.
+                        My journey involves deep-diving into <strong>Python programming</strong> and transforming
+                        complex data into actionable insights using tools like <strong>Excel and Power BI</strong>.
+                    </p>
+                    <p style="margin-top: 1rem; color: var(--text-secondary);">
+                        I thrive in collaborative environments and am constantly learning new technologies to solve
+                        real-world problems.
+                    </p>
+
+                    <!-- Visual Python Code Block -->
+                    <div class="code-block">
+                        <div class="code-header">
+                            <div class="dot red"></div>
+                            <div class="dot yellow"></div>
+                            <div class="dot green"></div>
+                        </div>
+                        <pre><code id="python-code" style="color: #a9b7c6;"></code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="about hidden-element" style="padding-bottom: 2rem;">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-col" style="max-width: 800px; margin: 0 auto;">
+                <div class="glass edu-card" style="padding: 2.5rem; border-left: 4px solid var(--accent-gold);">
+                    <div
+                        style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem;">
+                        <div>
+                            <h3 style="font-size: 1.8rem; margin-bottom: 0.5rem;">B.Tech in Computer Science</h3>
+                            <p style="color: var(--accent-purple); font-size: 1.2rem; font-weight: 600;">Yashoda
+                                Technical Campus, Satara</p>
+                        </div>
+                        <div style="text-align: right; min-width: 150px;">
+                            <span class="skill-tag"
+                                style="background: rgba(197, 160, 89, 0.2); border-color: var(--accent-gold); color: white;">2026
+                                – Present</span>
+                            <p style="font-size: 1.1rem; margin-top: 0.5rem; font-weight: 700;">CGPA: 7.2</p>
+                        </div>
+                    </div>
+                    <p style="margin-top: 1.5rem; font-size: 1.1rem; color: var(--text-secondary); line-height: 1.8;">
+                        Deepening expertise in Data Structures, Algorithms, Database Management Systems, and Machine
+                        Learning. Actively participating in technical workshops and hackathons to apply classroom
+                        knowledge to real-world scenarios.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="about hidden-element">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 2rem;">
+
+                <!-- Programming -->
+                <div class="glass" style="padding: 2rem; transition: 0.3s;"
+                    onmouseover="this.style.transform='translateY(-5px)'"
+                    onmouseout="this.style.transform='translateY(0)'">
+                    <h4
+                        style="color: var(--accent-gold); margin-bottom: 1.5rem; font-size: 1.3rem; display: flex; align-items: center; gap: 10px;">
+                        <i class="fas fa-code"></i> Programming
+                    </h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">SQL</span>
+                    </div>
+                </div>
+
+                <!-- Web Development -->
+                <div class="glass" style="padding: 2rem; transition: 0.3s;"
+                    onmouseover="this.style.transform='translateY(-5px)'"
+                    onmouseout="this.style.transform='translateY(0)'">
+                    <h4
+                        style="color: var(--accent-gold); margin-bottom: 1.5rem; font-size: 1.3rem; display: flex; align-items: center; gap: 10px;">
+                        <i class="fas fa-globe"></i> Web Dev
+                    </h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">PHP</span>
+                    </div>
+                </div>
+
+                <!-- Tools & Database -->
+                <div class="glass" style="padding: 2rem; transition: 0.3s;"
+                    onmouseover="this.style.transform='translateY(-5px)'"
+                    onmouseout="this.style.transform='translateY(0)'">
+                    <h4
+                        style="color: var(--accent-gold); margin-bottom: 1.5rem; font-size: 1.3rem; display: flex; align-items: center; gap: 10px;">
+                        <i class="fas fa-database"></i> Tools & DB
+                    </h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Power BI</span>
+                        <span class="skill-tag">Excel</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">XAMPP</span>
+                        <span class="skill-tag">PyCharm</span>
+                    </div>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="glass" style="padding: 2rem; transition: 0.3s;"
+                    onmouseover="this.style.transform='translateY(-5px)'"
+                    onmouseout="this.style.transform='translateY(0)'">
+                    <h4
+                        style="color: var(--accent-gold); margin-bottom: 1.5rem; font-size: 1.3rem; display: flex; align-items: center; gap: 10px;">
+                        <i class="fas fa-users"></i> Soft Skills
+                    </h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Communication</span>
+                        <span class="skill-tag">Leadership</span>
+                        <span class="skill-tag">Teamwork</span>
+                        <span class="skill-tag">Problem Solving</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="about hidden-element" style="padding-top: 0;">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+
+                <!-- Project 1 -->
+                <div class="glass project-card hidden-element delay-100">
+                    <div class="project-img-placeholder">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Hostel Management Website</h3>
+                        <p class="project-tech">PHP • MySQL • HTML/CSS</p>
+                        <p style="color: var(--text-secondary);">
+                            Built a responsive user-friendly website for hostel management featuring a "Contact Us" form
+                            and MySQL database integration for managing inquiries.
+                        </p>
+                        <div style="margin-top: auto; padding-top: 1.5rem;">
+                            <a href="#" class="btn btn-outline" style="width: 100%; justify-content: center;">View
+                                Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="glass project-card hidden-element delay-200">
+                    <div class="project-img-placeholder">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Plant Disease Identification</h3>
+                        <p class="project-tech">Python • TensorFlow • OpenCV</p>
+                        <p style="color: var(--text-secondary);">
+                            Developed an image-based disease detection system using Deep Learning. The system identifies
+                            plant diseases and recommends specific remedies.
+                        </p>
+                        <div style="margin-top: auto; padding-top: 1.5rem;">
+                            <a href="https://github.com/sakshi-kokate04" target="_blank" class="btn btn-outline"
+                                style="width: 100%; justify-content: center;">View
+                                GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="about hidden-element" style="background: rgba(255,255,255,0.02);">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+
+            <div class="exp-item glass hidden-element delay-100">
+                <div class="exp-header">
+                    <h3>Club President</h3>
+                    <span class="skill-tag"
+                        style="background: var(--accent-gold); border:none; color: #000;">2025</span>
+                </div>
+                <h4 style="color: var(--text-secondary); margin-bottom: 0.5rem;">Quick Heal Foundation</h4>
+                <ul style="list-style-position: inside; color: var(--text-secondary);">
+                    <li>Managed a team of 16+ members to conduct events.</li>
+                    <li>Enhanced leadership and team management skills.</li>
+                    <li>Led and coordinated student teams for cyber awareness activities</li>
+                    <li>Planned and executed workshops and outreach programs</li>
+                    <li>Managed communication, task allocation, and reporting.</li>
+                    <li>Developed leadership, coordination, and communication skills</li>
+
+                </ul>
+                <div class="exp-gallery">
+                    <img src="1.jpg" alt="Team Collaboration" class="exp-img">
+                    <img src="2.jpg" alt="Hackathon Event" class="exp-img">
+                    <img src="3.jpg" alt="Public Speaking" class="exp-img">
+                    <img src="4.jpg" alt="Technical Work" class="exp-img">
+                    <img src="5.jpg" alt="Code Review" class="exp-img">
+                    <img src="6.jpg" alt="Planning Session" class="exp-img">
+                    <img src="9.jpg" alt="Planning Session" class="exp-img">
+                    <img src="8.jpg" alt="Planning Session" class="exp-img">
+                </div>
+                <div style="margin-top: 1.5rem;">
+                    <a href="https://www.instagram.com/qhf_sakshi_ytc?igsh=MXV5aXQ4M3Z1ZWNjcw==" target="_blank"
+                        class="btn btn-outline"
+                        style="font-size: 0.9rem; padding: 8px 20px; border-color: var(--accent-gold); color: var(--accent-gold);">
+                        <i class="fab fa-instagram" style="margin-right: 8px;"></i> View @qhf_sakshi_ytc
+                    </a>
+                </div>
+            </div>
+
+            <div class="exp-item glass hidden-element delay-200" style="border-left-color: var(--accent-gold-light);">
+                <div class="exp-header">
+                    <h3>Software Development Intern</h3>
+                    <span class="skill-tag"
+                        style="background: var(--accent-gold-light); border:none; color: #000;">2024</span>
+                </div>
+                <h4 style="color: var(--text-secondary); margin-bottom: 0.5rem;">Octane Cybersafe Pvt. Ltd.</h4>
+                <ul style="list-style-position: inside; color: var(--text-secondary);">
+                    <li>Worked on front-end development using HTML, CSS, and JavaScript.</li>
+                    <li>Gained hands-on experience in responsive web design.</li>
+                    <li>Collaborated with the team to understand project workflows.</li>
+                </ul>
+                <div class="exp-gallery">
+                    <img src="10.jpg" alt="Python Debugging" class="exp-img">
+                </div>
+            </div>
+
+            <!-- Achievements -->
+            <h3 style="margin: 3rem 0 2rem;">Achievements & Certifications</h3>
+            <div class="glass hidden-element delay-300" style="display: flex; flex-wrap: wrap; gap: 1rem;">
+                <span class="skill-tag"><i class="fas fa-trophy" style="color: #ffd700;"></i> Runner-Up: Cyber Shiksha
+                    Compliance</span>
+                <span class="skill-tag"><i class="fas fa-certificate"></i> Core Java Certification</span>
+                <span class="skill-tag"><i class="fas fa-user-tie"></i> Soft Skill Training</span>
+                <span class="skill-tag"><i class="fas fa-handshake"></i> Corporate Mentorship Program</span>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact-section hidden-element">
+        <div class="container contact-wrapper">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-grid glass">
+                <div class="contact-details hidden-element delay-100">
+                    <h3 style="margin-bottom: 1.5rem; color: var(--accent-gold);">Communication Channels</h3>
+                    <p style="margin-bottom: 2rem; color: var(--text-secondary); line-height: 1.8;">
+                        I am currently open to internships and full-time opportunities in Data Analytics and
+                        Development.
+                        Feel free to reach out via email or phone!
+                    </p>
+                    <div class="contact-info-list" style="display: grid; gap: 1.5rem;">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope" style="color: var(--accent-gold);"></i>
+                            <a href="mailto:kokatesakshi004@gmail.com"
+                                style="color: var(--text-primary); text-decoration: none;">kokatesakshi004@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone" style="color: var(--accent-gold-light);"></i>
+                            <span style="color: var(--text-primary);">+91 7498436968</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt" style="color: var(--accent-gold);"></i>
+                            <span style="color: var(--text-primary);">Satara, Maharashtra, India</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper hidden-element delay-200">
+                    <h3 style="margin-bottom: 1.5rem;">Send a Message</h3>
+                    <div class="contact-form" id="contactFormContainer"
+                        style="margin-top: 0; display: grid; gap: 1.2rem;">
+                        <div class="form-group">
+                            <input type="text" id="contactName" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="contactEmail" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="contactMessage" rows="4" placeholder="Your Message" required
+                                style="padding: 1.2rem;"></textarea>
+                        </div>
+                        <button id="whatsappBtn" class="btn btn-primary"
+                            style="width: 100%; justify-content: center; padding: 12px;">
+                            Send to WhatsApp <i class="fab fa-whatsapp" style="margin-left: 8px;"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/sakshi-kokate/" target="_blank" class="social-link"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/sakshi-kokate04" target="_blank" class="social-link"><i
+                        class="fab fa-github"></i></a>
+            </div>
+            <p>Built with passion for Python and data-driven thinking.</p>
+            <p style="font-size: 0.8rem; margin-top: 1rem; color: #444;">&copy; 2026 Sakshi Kokate. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
